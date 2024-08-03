@@ -12,4 +12,20 @@
   539  cd aug03/
   544  cat .git/config 
   546  git status
+  568  git commit -m "initial setup"
+  569  git config --global user.email "auasad@gmail.com"
+  570  git config --global user.name "auasad"
+  573  git push
+  574  git status
+  580  git branch
+  581  git checkout -b aug03
+  582  git branch
+  585  git status
+  586  git checkout main
+  587  git branch
+  591  git add aug03/history.txt
+  592  git commit -m "aug03 deleted"
+  593  git push
+  594  git stauts
+  601  git push --set-upstream origin aug03
 
