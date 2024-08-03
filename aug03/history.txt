@@ -1,0 +1,15 @@
+  507  cat /etc/os-release
+  509  sudo apt-get update
+  510  sudo apt-get install git
+  512  git
+  513  git --version
+  522  ssh-keygen 
+  525  cd .ssh/
+  526  cat id_rsa.pub 
+  527  git clone git@github.com:auasad/devops-class.git
+  535  cd devops-class/
+  537  mkdir aug03
+  539  cd aug03/
+  544  cat .git/config 
+  546  git status
+
