@@ -1,0 +1,6 @@
+  630  git pull
+  631  git checkout -b aug04
+  632  git branch
+  633  ls -l
+  634  mkdir aug04
+  635  cd aug04/
