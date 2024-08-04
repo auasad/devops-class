@@ -4,3 +4,67 @@
   633  ls -l
   634  mkdir aug04
   635  cd aug04/
+675  git log
+  676  git push
+  677  git push --set-upstream origin aug04
+  678  which git
+  679  /usr/bin/git
+  680  git
+  681  clear
+  682  git
+  683  locate git
+  684  useradd dev1
+  685  sudo useradd dev1
+  686  cd ~
+  687  ll
+  688  ll /home/
+  689  ll /home/vagrant/
+  690  passwd dev1
+  691  sudo passwd dev1
+  692  su - dev1
+  693  ls -l
+  694  ls -l /home/vagrant/
+  695  man
+  696  useradd --help
+  697  sudo useradd dev2
+  698  sudo passwd dev2
+  699  sudo - dev2
+  700  su - dev2
+  701  sudo useradd dev2 -d dev2
+  702  sudo useradd dev3 -d dev3
+  703  pwd
+  704  sudo useradd dev3 -d /home/vagrant/dev3
+  705  ll
+  706  ll /home/vagrant/
+  707  ls -lah
+  708  su - dev3
+  709  sudo passwd dev3
+  710  su - dev3
+  711  useradd --help
+  712  sudo useradd dev4 -d -m /home/vagrant/dev4
+  713  sudo useradd dev4 -dm /home/vagrant/dev4
+  714  sudo useradd dev4 -m /home/vagrant/dev4
+  715  clear
+  716  sudo useradd dev4 -m /home/vagrant/dev4
+  717  ll /home/
+  718  ll /home/vagrant/
+  719  cat /etc/passwd
+  720  ll /home/dev1
+  721  adduser
+  722  adduser dev5
+  723  sudo adduser dev5
+  724  su - dev5
+  725  ll /home/
+  726  sudo useradd dev4
+  727  ll
+  728  ll /home/
+  729  sudo passwd dev4
+  730  sudo adduser dev6
+  731  ll /home/
+  732  adduser --help
+  733  cat /etc/passwd
+  734  su - dev5
+  735  su - dev1
+  736  sudo vim /etc/passwd
+  737  su - dev1
+
