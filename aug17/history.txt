@@ -1,0 +1,1000 @@
+  228  ls -lha
+  229  cd /var/log/
+  230  ls -lah
+  231  less lastlog
+  232  history
+  233  ll
+  234  vim lastlog 
+  235  vim faillog
+  236  sudo vim faillog
+  237  less bootstrap.log
+  238  vim test.txt
+  239  sudo vim test.txt
+  240  cat test.txt 
+  241  sudo vim test.txt
+  242  cat test.txt 
+  243  sudo vim test1.txt
+  244  sudo diff test.txt test1.txt 
+  245  sudo vim test1.txt
+  246  sudo diff test.txt test1.txt 
+  247  sudo vim test1.txt
+  248  sudo diff test.txt test1.txt 
+  249  sudo vim test1.txt
+  250  sudo diff test.txt test1.txt 
+  251  sudo diff -b test.txt test1.txt 
+  252  sudo diff -B test.txt test1.txt 
+  253  vim --version
+  254  vim -v
+  255  ll
+  256  vim asad.txt
+  257  sudo vim asad.txt
+  258  cp asad1.txt 
+  259  cp asad.txt asad1.txt 
+  260  sudo cp asad.txt asad1.txt 
+  261  ll
+  262  cat asad1.txt 
+  263  sudo vim  asad1.txt 
+  264  diff asad.txt asad1.txt 
+  265  diff -i asad.txt asad1.txt 
+  266  sudo diff -y test.txt test1.txt 
+  267  cat asad1.txt 
+  268  sudo vim asad1.txt 
+  269  cd ..
+  270  ls -lah
+  271  ll asad.txt
+  272  cd /var/log/
+  273  cd ..
+  274  ll
+  275  lll
+  276  which asad.txt
+  277  cd /var/log/
+  278  which asad.txt 
+  279  locat asad.txt 
+  280  locate asad.txt 
+  281  find
+  282  find / asad.txt
+  283  q
+  284  find / asad.txt
+  285  find /var/log/ *.txt
+  286  find /var/log/ asad.*
+  287  find /var/log/ asad1.*
+  288  which asad.txt 
+  289  locate .bashrc
+  290  ll
+  291  cd ~
+  292  ll
+  293  vim field1  =    field2
+  294  vim file.txt
+  295  pr file.txt 
+  296  cat file.txt | cut -d'=' -f2
+  297  cat file.txt | cut -d'=' -f1
+  298  cp file.txt file1.txt 
+  299  vim file1.txt 
+  300  cat file.txt | cut -d';' -f3
+  301  cat file.txt
+  302  cat file1.txt | cut -d';' -f3
+  303  cat file1.txt | cut -d';' -f2
+  304  cat file1.txt | cut -d';' -f1
+  305  cat file1.txt
+  306  cat file1.txt | cut -d';' -f3
+  307  cat file1.txt | cut -d';' -f2
+  308  cat file1.txt | cut -d';' -f1
+  309  cat file1.txt | cut -d';' -f4
+  310  who
+  311  who | cut -b -2
+  312  who | cut -b -3
+  313  echo "Geeks for Geeks"
+  314  echo "Asad Ullah"
+  315  echo -e "Geeks \bfor \bGeeks"
+  316  echo -e "Geeks for \bGeeks"
+  317  echo -e "Geeks for Geeks"
+  318  echo -e "Geeks \bfor \bGeeks"
+  319  echo "Asad \nUllah"
+  320  echo "Asad \bUllah"
+  321  echo -e "Asad \bUllah"
+  322  man echo
+  323  echo --help
+  324  echo --version
+  325  echo -e "Geeks \cfor Geeks"
+  326  echo -e "Asad \cUllah"
+  327  echo -e "Asad Ullah"
+  328  echo -e "Asad \cUllah"
+  329  echo -e "Asad \tUllah"
+  330  echo -e "Asad \rUllah"
+  331  echo -e "Asad \cUllah"
+  332  echo -e "This is a \cstring"
+  333  echo -e "This is a \rstring"
+  334  echo -e "This is \ra string"
+  335  echo -e "This \ris a string"
+  336  echo -e "Geeks \vfor \vGeeks
+  337  echo -e "Geeks \vfor \vGeeks"
+  338  echo -e "Geeks \vfor \vGeeks \vTest \v Test2"
+  339  ls -l
+  340  ls -lah
+  341  echo *
+  342  ls -l
+  343  ls
+  344  echo *
+  345  echo
+  346  echo "Asad Ullah"
+  347  echo "This is a string."
+  348  ll
+  349  ls
+  350  echo "Welcome GFG" > output.txt
+  351  echo "Welcome GFG"
+  352  echo "Welcome GFG" > output.txt
+  353  ls
+  354  cat output.txt
+  355  echo "Welcome GFG 1" > output.txt
+  356  cat output.txt
+  357  ll
+  358  cd /var/log/
+  359  ll
+  360  cat lastlog 
+  361  cat faillog
+  362  cat dpkg.log
+  363  cat -n 5 dpkg.log 
+  364  cat -n 5 dpkg.log > dpkg.log.bakup
+  365  sudo cat -n 5 dpkg.log > dpkg.log.bakup
+  366  sudo su
+  367  sudo cat dpkg.log > dpkg.log.bakup
+  368  sudo su
+  369  cat dpkg.log.bakup | grep unpacked
+  370  cat dpkg.log.bakup | grep 23:09:33
+  371  cat dpkg.log.bakup | grep libheimntlm0-heimdal
+  372  cat dpkg.log.bakup | grep status half-configured
+  373  cat dpkg.log.bakup | grep "status half-configured"
+  374  cat dpkg.log.bakup | grep "lsb-release:all 9.20160110ubuntu0.2"
+  375  cat dpkg.log.bakup | grep ca-certificates:all
+  376  cat dpkg.log.bakup | grep "ca-certificates:all 20210119~16.04.1"
+  377  cat dpkg.log.bakup | grep ca-certificates:all 20210119~16.04.1
+  378  cat dpkg.log.bakup 
+  379  vim dpkg.log.bakup 
+  380  sudo vim dpkg.log.bakup 
+  381  cat dpkg.log.bakup | grep install
+  382  cat dpkg.log.bakup | grep -i install
+  383  cat dpkg.log.bakup | grep -i *-install-*
+  384  cat dpkg.log.bakup | grep -i "*-install-*"
+  385  cat dpkg.log.bakup | grep -i "*-install"
+  386  cat dpkg.log.bakup | grep -i "*-installed"
+  387  cat dpkg.log.bakup | grep -i "half-installed"
+  388  cat dpkg.log.bakup | grep -i "half-*"
+  389  cat dpkg.log.bakup | grep -i "configured"
+  390  cat dpkg.log.bakup | grep -i "*-configured"
+  391  cat dpkg.log.bakup | grep -i "half-*"
+  392  man grep
+  393  grep --help
+  394  cat dpkg.log.bakup | grep -i "half-*"
+  395  man grep
+  396  grep --help
+  397  cat -f dpkg.log.bakup | grep -i "half-*"
+  398  cat dpkg.log.bakup | grep -f "half-*"
+  399  grep "half-*" -f dpkg.log.bakup 
+  400  grep -f dpkg.log.bakup | half-*
+  401  grep -f dpkg.log.bakup half-*
+  402  grep --help
+  403  cat dpkg.log.bakup | grep -f "half-*"
+  404  cat dpkg.log.bakup | grep "half-*"
+  405  grep --help
+  406  cat dpkg.log.bakup | grep "half-*"
+  407  cat dpkg.log.bakup | grep -v "half-*"
+  408  cat dpkg.log.bakup
+  409  cat dpkg.log.bakup | grep -v "half-*"
+  410  grep --help
+  411  cat dpkg.log.bakup | grep -n "half-*"
+  412  grep --help
+  413  cat dpkg.log.bakup | grep -n "half-*"
+  414  cat dpkg.log.bakup | grep "half-*"
+  415  cat dpkg.log.bakup | grep "half-*" | awk '{print &5}'
+  416  cat dpkg.log.bakup | grep "half-*" | awk '{print $5}'
+  417  cat dpkg.log.bakup | grep "half-*"
+  418  cat dpkg.log.bakup | grep "half-*" | awk '{print $6}'
+  419  cat dpkg.log.bakup | grep "half-*" | awk '{print $5}'
+  420  cat dpkg.log.bakup | grep "half-*" | awk '{print $4}'
+  421  cat dpkg.log.bakup | grep "half-*" | awk '{print $11}'
+  422  cat dpkg.log.bakup | grep "half-*" | awk '{print $5}' 
+  423  locate asad.txt
+  424  find
+  425  find asad.txt
+  426  ll
+  427  pwd
+  428  cd ~
+  429  ll
+  430  find / asad.txt
+  431  find /var/log/ asad.txt
+  432  find /var/log/ -name asad.txt
+  433  find /var/ -name asad.txt
+  434  find / -name asad.txt
+  435  find /home/username/ -name "*.err"
+  436  find /var/ -name asad.txt
+  437  ll /var/log/asad.txt
+  438  ll /var/log/asad.*
+  439  find /var/ -name asad.*
+  440  find /var/ -name *.txt
+  441  find /var/ -f *.txt
+  442  find /var/log/ -f *.txt
+  443  find /var/log/ -name *.txt
+  444  find /var -name *.jpg
+  445  sudo find /var -name *.jpg
+  446  sudo find /var/log -name *.jpg
+  447  sudo find /var/log -name *.txt
+  448  sudo find /var/log/ -name *.txt
+  449  sudo find /var/log/
+  450  sudo find /var/log/ -name asad.txt
+  451  sudo find /var/log/ -name asad.*
+  452  sudo find /var/log/ -name *.txt
+  453  cd /var/log/
+  454  sudo find . -name asad.*
+  455  sudo find . -name *.txt
+  456  sudo find . -name asad.txt
+  457  pwd
+  458  ls -l
+  459  sudo find . -name asad.txt
+  460  sudo find /var/log/ -name asad.txt
+  461  cat asad
+  462  cat asad.txt 
+  463  touch test.txt
+  464  sudo touch test.txt
+  465  ll
+  466  cat test
+  467  cat test.txt 
+  468  sudo touch testing.txt
+  469  cat testing.txt 
+  470  find . -type f -empty
+  471  touch testing2.txt 
+  472  sudo touch testing2.txt 
+  473  find . -type f -empty
+  474  find . -type f
+  475  find . -type f -user vagrant
+  476  find . -user vagrant
+  477  who
+  478  ll
+  479  sudo chown -R vagrant:vagrant testing.txt 
+  480  ll
+  481  find . -type f -user vagrant
+  482  find . -type f -user vagrant | ls -l
+  483  find . -type f -user vagrant
+  484  find . -user vagrant
+  485  find . -type f -user vagrant -mtime +2
+  486  find . -type f -user vagrant -mtime -2
+  487  find . -type f -user vagrant -mtime -7
+  488  find . -type f -user vagrant -mtime -30
+  489  find . -type f -mtime -7
+  490  his
+  491  sudo su
+  492  history | grep grep
+  493  cat dpkg.log.bakup | grep -n "half-*"
+  494  find / -type f -mtime -7
+  495  find -type f -mtime -7
+  496  find . -type f -mtime -7
+  497  vagrant halt
+  498  exit
+  499  cat /etc/os-release
+  500  sudo apt-get update
+  501  sudo apt-get install git
+  502  git --version
+  503  sudo apt-get remove git
+  504  git --version
+  505  git
+  506  #sudo apt-get update
+  507  cat /etc/os-release
+  508  apt-get or apt
+  509  sudo apt-get update
+  510  sudo apt-get install git
+  511  ng package lists... Done
+  512  git
+  513  git --version
+  514  ll
+  515  mkdir Aug03
+  516  cd Aug03/
+  517  git
+  518  git clone git@github.com:auasad/devops-class.git
+  519  cd ~
+  520  ls -lah
+  521  ll .ssh/
+  522  ssh-keygen 
+  523  ll
+  524  ll .ssh/
+  525  cd .ssh/
+  526  cat id_rsa.pub 
+  527  git clone git@github.com:auasad/devops-class.git
+  528  ll
+  529  sudo rm -fr devops-class/
+  530  cd ..
+  531  cd ~
+  532  ll
+  533  git clone git@github.com:auasad/devops-class.git
+  534  ll
+  535  cd devops-class/
+  536  ll
+  537  mkdir aug03
+  538  ll
+  539  cd aug03/
+  540  ll
+  541  cd ..
+  542  ll
+  543  ls -lah
+  544  cat .git/config 
+  545  ls -lha
+  546  git status
+  547  ll
+  548  ls -lah
+  549  git status
+  550  ll
+  551  touch asad.txt
+  552  git status
+  553  sudo rm -f asad.txt 
+  554  ll
+  555  git status
+  556  cd aug03/
+  557  history
+  558  vim history.txt
+  559  ll
+  560  git status
+  561  cd ..
+  562  git status
+  563  ll aug03/
+  564  git status
+  565  git add .
+  566  git 
+  567  git status
+  568  git commit -m "initial setup"
+  569  git config --global user.email "auasad@gmail.com"
+  570  git config --global user.name "auasad"
+  571  git commit -m "initial setup"
+  572  git status
+  573  git push
+  574  git status
+  575  clear
+  576  ll
+  577  clear
+  578  git --help
+  579  git branch --help
+  580  git branch
+  581  git checkout -b aug03
+  582  git branch
+  583  ls 
+  584  ls -l
+  585  git status
+  586  git checkout main
+  587  git branch
+  588  ls -l
+  589  sudo rm -fr aug03/
+  590  git status
+  591  git add aug03/history.txt
+  592  git commit -m "aug03 deleted"
+  593  git push
+  594  git stauts
+  595  git status
+  596  git checkout aug03
+  597  git branch
+  598  ll
+  599  git status
+  600  git push
+  601  git push --set-upstream origin aug03
+  602  history
+  603  ll
+  604  git branch
+  605  cd aug03/
+  606  ll
+  607  git status
+  608  vim history.txt 
+  609  cd ..
+  610  ll
+  611  git status
+  612  #git add aug03/history.txt
+  613  ll
+  614  touch asad.txt
+  615  git status
+  616  git add  aug03/history.txt
+  617  git status
+  618  ll
+  619  rm -f asad.txt 
+  620  ll
+  621  git status
+  622  git commit -m "more commands"
+  623  git push
+  624  git branch
+  625  git checkout main
+  626  ll
+  627  ls -l
+  628  git branch
+  629  git checkout aug03
+  630  git pull
+  631  git checkout -b aug04
+  632  git branch
+  633  ls -l
+  634  mkdir aug04
+  635  cd aug04/
+  636  history
+  637  vim history.txt
+  638  ls -l
+  639  pwd
+  640  cd ..
+  641  ll
+  642  git branch
+  643  git status
+  644  git checkout aug03
+  645  git branch
+  646  ls -l
+  647  git log
+  648  ls -l
+  649  cd aug0
+  650  cd aug04/
+  651  ll
+  652  git checkout aug03
+  653  ls -l
+  654  cd ..
+  655  ll
+  656  git branch
+  657  git checkout aug04
+  658  ls -l
+  659  git status
+  660  git add .
+  661  git status
+  662  #git commit -m ""
+  663  git branch
+  664  git log
+  665  git commit -m "first commit on aug 04"
+  666  git log
+  667  git branch
+  668  git log
+  669  git checkout aug03
+  670  ls -l
+  671  git branch
+  672  ls -l
+  673  git checkout aug04
+  674  ls -l
+  675  git log
+  676  git push
+  677  git push --set-upstream origin aug04
+  678  which git
+  679  /usr/bin/git
+  680  git
+  681  clear
+  682  git
+  683  locate git
+  684  useradd dev1
+  685  sudo useradd dev1
+  686  cd ~
+  687  ll
+  688  ll /home/
+  689  ll /home/vagrant/
+  690  passwd dev1
+  691  sudo passwd dev1
+  692  su - dev1
+  693  ls -l
+  694  ls -l /home/vagrant/
+  695  man
+  696  useradd --help
+  697  sudo useradd dev2
+  698  sudo passwd dev2
+  699  sudo - dev2
+  700  su - dev2
+  701  sudo useradd dev2 -d dev2
+  702  sudo useradd dev3 -d dev3
+  703  pwd
+  704  sudo useradd dev3 -d /home/vagrant/dev3
+  705  ll
+  706  ll /home/vagrant/
+  707  ls -lah
+  708  su - dev3
+  709  sudo passwd dev3
+  710  su - dev3
+  711  useradd --help
+  712  sudo useradd dev4 -d -m /home/vagrant/dev4
+  713  sudo useradd dev4 -dm /home/vagrant/dev4
+  714  sudo useradd dev4 -m /home/vagrant/dev4
+  715  clear
+  716  sudo useradd dev4 -m /home/vagrant/dev4
+  717  ll /home/
+  718  ll /home/vagrant/
+  719  cat /etc/passwd
+  720  ll /home/dev1
+  721  adduser
+  722  adduser dev5
+  723  sudo adduser dev5
+  724  su - dev5
+  725  ll /home/
+  726  sudo useradd dev4
+  727  ll
+  728  ll /home/
+  729  sudo passwd dev4
+  730  sudo adduser dev6
+  731  ll /home/
+  732  adduser --help
+  733  cat /etc/passwd
+  734  su - dev5
+  735  su - dev1
+  736  sudo vim /etc/passwd
+  737  su - dev1
+  738  history
+  739  ll
+  740  git branch
+  741  cd /home/vagrant/
+  742  ll
+  743  git branch
+  744  cd devops-class/
+  745  ll
+  746  git branch
+  747  cd aug04
+  748  ll
+  749  vim history.txt 
+  750  git branch
+  751  git status
+  752  git add .
+  753  git commit -m "further commands"
+  754  git push
+  755  git status
+  756  userdel dev2
+  757  sudo userdel dev2
+  758  cat /etc/passwd
+  759  exit
+  760  id
+  761  uuid
+  762  whoami
+  763  pwd
+  764  id
+  765  uname
+  766  uname -a
+  767  sudo su
+  768  cd -
+  769  cd ~
+  770  ls
+  771  cat "this is a text file" >> asad.txt
+  772  echo "this is a text file" >> asad.txt
+  773  cat asad.txt 
+  774  ll
+  775  cat output.txt 
+  776  cat file.txt 
+  777  cat file1.txt 
+  778  cd /var/log/
+  779  ll
+  780  cat dpkg.log
+  781  cat dpkg.log | grep 04:33:50
+  782  cat dpkg.log | grep 04:33:*
+  783  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1
+  784  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1 | wc -l
+  785  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1 | uniq
+  786  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1 | uniq -c
+  787  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1 | uniq | wc -l
+  788  cat dpkg.log | grep 1:2.7.4-0ubuntu1.1 | wc -l
+  789  cd ~
+  790  ll
+  791  pwd
+  792  history | grep useradd
+  793  sudo useradd dev2 -d dev20
+  794  sudo useradd dev2 -d -m dev20
+  795  sudo useradd dev2 -dm dev20
+  796  sudo useradd dev20 -d dev20
+  797  mkir dev20
+  798  mkdir dev20
+  799  ll
+  800  sudo useradd dev20 -d dev20
+  801  sudo useradd dev20 -d /home/vagrant/dev20
+  802  adduser asad
+  803  sudo adduser asad
+  804  cat /etc/passwd
+  805  hostname
+  806  hostnamectl nedlab
+  807  hostnamectl --help
+  808  set-hostname nedlab
+  809  vim /etc/hosts
+  810  hostname
+  811  ls -lah
+  812  du -sh file.txt
+  813  du file.txt
+  814  du -h file.txt
+  815  du -s file.txt
+  816  cd /var/log/
+  817  ll
+  818  du -sh dpkg.log
+  819  du -sh faillog
+  820  du -sh *
+  821  du -sh .
+  822  pwd
+  823  cd ..
+  824  du -sh log
+  825  ps
+  826  ps --help
+  827  sudo apt-get install apache2
+  828  systemctl status apache2.service
+  829  systemctl
+  830  service apache2 status
+  831  service apache2 start
+  832  service apache2 status
+  833  sudo service apache2 start
+  834  service apache2 status
+  835  ps
+  836  ps -aux
+  837  ps
+  838  ps --help
+  839  ps
+  840  ps -aux
+  841  ps -aux | grep apache2
+  842  sudo apt-get install mysql
+  843  sudo apt-get install mariadb
+  844  ps -aux
+  845  df
+  846  df -hT
+  847  lsblk
+  848  ip a s
+  849  ifconfig
+  850  ipconfig
+  851  ip
+  852  ip a
+  853  ip a s
+  854  ip a show
+  855  ip all show
+  856  ping 
+  857  sudo apt-get install net-tools
+  858  ping
+  859  sudo apt-get install net-utils
+  860  apt-get install -y iputils-ping
+  861  sudo apt-get install -y iputils-ping
+  862  ping
+  863  ping --help
+  864  ping google.com
+  865  ping
+  866  ping google.com
+  867  ping -c 5 google.com
+  868  ping -c 10 google.com
+  869  mount
+  870  ps -u www-data
+  871  ps -u apache
+  872  ps -u apache2
+  873  ps -auz
+  874  ps -aux
+  875  ps -u vagrant
+  876  ps -u root
+  877  ps -L 788
+  878  ps -L 818
+  879  ps -L 810
+  880  ps -L 791
+  881  ps -L 788
+  882  ps aux | wc -l
+  883  ps -fG www-data
+  884  ps -C www-data
+  885  ps -u root -C www-data
+  886  ps -aux -C www-data
+  887  ps aux -C www-data
+  888  ps -auxc www-data
+  889  ps -ef pid,ppid,cmd,%cpu,%mem
+  890  ps -eo pid,ppid,cmd,%cpu,%mem
+  891  ss
+  892  ss -aux
+  893  ss -au
+  894  htop
+  895  top
+  896  htop
+  897  top
+  898  free -m
+  899  uptime
+  900  date
+  901  uptime
+  902  free -m
+  903  df -h
+  904  uptime --help
+  905  uptime -V
+  906  uptime -p
+  907  uptime
+  908  uptime -s
+  909  top
+  910  htop
+  911  sudo apt-get install htop
+  912  htop
+  913  cat /etc/default/useradd
+  914  cat /etc/group
+  915  cat /etc/passwd
+  916  ll /etc/skel/
+  917  ll /home/dev5
+  918  ll /home/asad/
+  919  ll /home/dev6
+  920  sudo useradd -d -m /home/asad1
+  921  sudo useradd asad1
+  922  userdel --help
+  923  cat /etc/passwd
+  924  sudo userdel dev1
+  925  sudo userdel dev*
+  926  sudo userdel dev3
+  927  sudo userdel dev5
+  928  sudo userdel dev4
+  929  sudo userdel dev6
+  930  sudo userdel dev20
+  931  sudo userdel asad1
+  932  cat /etc/passwd
+  933  clear
+  934  cd /etc/apache2/
+  935  cd ..
+  936  ll apache2/
+  937  cat /etc/passwd
+  938  ll apache2/
+  939  ll | awk {print &8}
+  940  ll | awk '{print &8}'
+  941  ll | awk '${print &8}'
+  942  ll | awk '{print $0}'
+  943  ll | awk '{print $5}'
+  944  ll | awk '{print $6}'
+  945  cd apache2/
+  946  ll | awk '{print $6}'
+  947  ll | awk '{print $7}'
+  948  ll | awk '{print $8}'
+  949  ll
+  950  ll | awk '{print $8}'
+  951  ll | awk '{print $7}'
+  952  ll | awk '{print $6}'
+  953  ll | awk '{print $5}'
+  954  ls -lah | awk '{print $5}'
+  955  ll
+  956  ls -lah | awk '{print $4, $3}'
+  957  cd ..
+  958  ll apache2/
+  959  cat /etc/passwd
+  960  ll
+  961  ll apache2/
+  962  sudo chown -R www-data apache2/
+  963  ll apache2/
+  964  sudo chown -R www-data.www-data apache2/
+  965  ll apache2/
+  966  sudo chown -R www-data:www-data apache2/
+  967  sudo chown -R root:root apache2/
+  968  ll apache2/
+  969  sudo chown www-data:www-data apache2/
+  970  ll apache2/
+  971  ll /etc/
+  972  sudo chown -R www-data:www-data apache2/
+  973  ll apache2/
+  974  ll apache2/conf-available/
+  975  usermod --help
+  976  ll
+  977  ll apache2/
+  978  sudo chown -R root:root apache2/
+  979  ll apache2/
+  980  #sudo usermod -aG www-data asad
+  981  ll /etc/passwd
+  982  cat /etc/passwd
+  983  cat /etc/group
+  984  sudo usermod -aG www-data asad
+  985  cat /etc/passwd
+  986  cat /etc/group
+  987  sudo userad asad2
+  988  sudo useradd asad2
+  989  cat /etc/passwd
+  990  cat /etc/group
+  991  sudo usermod -aG www-data asad2
+  992  cat /etc/group
+  993  ll apache2/
+  994  cd apache2/
+  995  ll
+  996  sudo chown www-data apache2.conf
+  997  ll
+  998  sudo chown www-data:www-data apache2.conf
+  999  ll
+ 1000  history
+ 1001  cd /home/vagrant/
+ 1002  ll
+ 1003  mkdir Aug11-12
+ 1004  history >> Aug11-12/history.txt
+ 1005  ll Aug11-12/
+ 1006  cat Aug11-12/history.txt 
+ 1007  ll
+ 1008  cd Aug11-12/
+ 1009  ll
+ 1010  git status
+ 1011  cd ..
+ 1012  mv Aug11-12/ devops-class/
+ 1013  cd devops-class/
+ 1014  ll
+ 1015  git status
+ 1016  git add .
+ 1017  git commit -m "all commands from Aug 11 and 12 class"
+ 1018  git push
+ 1019  git branch
+ 1020  ll
+ 1021  git checkout -b aug1112
+ 1022  git add .
+ 1023  git push
+ 1024  git push --set-upstream origin aug1112
+ 1025  exit
+ 1026  history
+ 1027  ll /home/
+ 1028  useradd --help
+ 1029  sudo useradd -m -d dev1
+ 1030  sudo useradd -d dev1
+ 1031  sudo useradd -d /home/dev1 dev1
+ 1032  ll /home/dev1
+ 1033  ll /home/
+ 1034  cat /etc/passwd
+ 1035  sudo userdel dev1
+ 1036  cat /etc/passwd
+ 1037  sudo userdel asad2
+ 1038  #sudo useradd -d /home/dev1 dev1
+ 1039  mkdir /home/dev1
+ 1040  sudo mkdir /home/dev1
+ 1041  sudo useradd -d /home/dev1 dev1
+ 1042  ll /home/
+ 1043  sudo chown -R dev1:dev1 /home/dev1
+ 1044  ll /home/
+ 1045  cat /etc/passwd
+ 1046  cat /etc/group
+ 1047  sudo usermod -aG dev1 asad
+ 1048  cat /etc/group
+ 1049  ll /home/
+ 1050  sudo chmod -R 744 /home/dev1
+ 1051  ll /home/
+ 1052  sudo chmod -R 754 /home/dev1
+ 1053  ll /home/
+ 1054  sudo chmod +x /home/dev1
+ 1055  ll /home/
+ 1056  sudo chmod -x /home/dev1
+ 1057  ll /home/
+ 1058  sudo chmod -R u+rwx,go+r /home/dev1
+ 1059  ll /home/
+ 1060  sudo chmod -R u+rwx,go+rw /home/dev1
+ 1061  ll /home/
+ 1062  sudo chmod -R u+rwx,go-r /home/dev1
+ 1063  ll /home/
+ 1064  pwd
+ 1065  cd /home/dev1
+ 1066  sudo cd /home/dev1
+ 1067  sudo su
+ 1068  cd /home/dev1
+ 1069  sudo cd /home/dev1
+ 1070  sudo - dev1
+ 1071  su - dev1
+ 1072  asdga
+ 1073  sudo passwd dev1
+ 1074  su - dev1
+ 1075  sudo /etc/passwd
+ 1076  sudo vim /etc/passwd
+ 1077  su - dev1
+ 1078  pwd
+ 1079  cd /home/dev1
+ 1080  sudo chown -R dev1:dev1 /home/dev1
+ 1081  ll /home/
+ 1082  su - dev1
+ 1083  ll /home/
+ 1084  sudo chown -R root:dev1 /home/dev1
+ 1085  ll /home/
+ 1086  pwd
+ 1087  cd /home/dev1
+ 1088  sudo cd /home/dev1
+ 1089  suod su
+ 1090  sudo su
+ 1091  su - dev1
+ 1092  ll /home/dev1
+ 1093  sudo ll /home/dev1
+ 1094  sudo su
+ 1095  su - dev1
+ 1096  ll
+ 1097  ll /home/
+ 1098  su - dev1
+ 1099  cd /home/dev1
+ 1100  sudo cd /home/dev1
+ 1101  sudo su
+ 1102  cd /home/dev1
+ 1103  cat /etc/group
+ 1104  sudo usermod -aG dev1 vagrant
+ 1105  cat /etc/group
+ 1106  cd /home/dev1
+ 1107  sudo cd /home/dev1
+ 1108  sudo su
+ 1109  cd /home/dev5
+ 1110  df -h
+ 1111  df -hT
+ 1112  cat /etc/os-release
+ 1113  cal
+ 1114  cd /etc/apache2/
+ 1115  ll
+ 1116  cd sites-enabled/
+ 1117  ll
+ 1118  cd ..
+ 1119  ll
+ 1120  cd sites-available/
+ 1121  ll
+ 1122  sudo vim asad.com.conf
+ 1123  pwd
+ 1124  ll
+ 1125  pwd
+ 1126  cd ..
+ 1127  sites-enabled/
+ 1128  ll
+ 1129  cd ..
+ 1130  cd apache2/
+ 1131  cd sites-available/
+ 1132  ll
+ 1133  cd ..
+ 1134  cd sites-enabled/
+ 1135  ll
+ 1136  ln -s ../sites-available/asad.com.conf .
+ 1137  sudo ln -s ../sites-available/asad.com.conf .
+ 1138  ll
+ 1139  sudo rm -f asad.com.conf 
+ 1140  ll
+ 1141  cd ..
+ 1142  cd sites-available/
+ 1143  ll
+ 1144  sudo rm -f asad.com.conf 
+ 1145  ll
+ 1146  cd ..
+ 1147  cd /var
+ 1148  ll
+ 1149  du -sh log/
+ 1150  sudo du -sh *
+ 1151  cd lib/
+ 1152  ll
+ 1153  cd ..
+ 1154  ll
+ 1155  cp lib/ lib1
+ 1156  cp -r lib/ lib1
+ 1157  sudo cp -r lib/ lib1
+ 1158  sudo cp -r lib/ lib2
+ 1159  sudo cp -r lib/ lib4
+ 1160  sudo cp -r lib/ lib5
+ 1161  cp -r lib1 lib2 lib3 lib4 lib5 lib/
+ 1162  sudo cp -r lib1 lib2 lib3 lib4 lib5 lib/
+ 1163  du -sh lib
+ 1164  tar
+ 1165  tar cvf lib.tar lib/
+ 1166  sudo tar cvf lib.tar lib/
+ 1167  sudo tar cf lib2.tar lib/
+ 1168  ll
+ 1169  sudo rm -f lib2.tar 
+ 1170  ll
+ 1171  du -sh lib.tar 
+ 1172  du -sh lib/
+ 1173  du -sh lib
+ 1174  sudo tar cvfz lib.tar.gz lib/
+ 1175  ll
+ 1176  du -sh lib.*
+ 1177  sudo tar cvfj lib.tar.bz2 lib/
+ 1178  sudo tar cvfj lib.tar.tbz lib/
+ 1179  ll
+ 1180  du -sh lib.*
+ 1181  sudo rm -f lib.tar.bz2 lib.tar.tbz 
+ 1182  du -sh lib.*
+ 1183  sudo apt-get install bzip2
+ 1184  sudo tar cvfj lib.tar.bz2 lib/
+ 1185  du -sh lib.*
+ 1186  tar -tvf lib.tar
+ 1187  history | grep tar
+ 1188  ll
+ 1189  sudo rm -f lib.*
+ 1190  ll
+ 1191  sudo tar cvf lib.tar lib/
+ 1192  ll
+ 1193  sudo mkdir tar
+ 1194  ll 
+ 1195  sudo tar -xvf lib.tar -C tar/
+ 1196  ll tar/
+ 1197  sudo tar cvfz lib.tar.gz lib/
+ 1198  ll tar.
+ 1199  ll lib
+ 1200  ll lib.tar
+ 1201  ll lib.*
+ 1202  tar -xvf lib.tar.gz tar/
+ 1203  sudo tar -xvf lib.tar.gz tar/
+ 1204  sudo tar -xvf lib.tar.gz -C tar/
+ 1205  ll tar/
+ 1206  date
+ 1207  sudo tar cvfj lib.tar.bz2 lib/
+ 1208  ll lib.tar8
+ 1209  ll lib.*
+ 1210  cd ..
+ 1211  cd ~
+ 1212  ll
+ 1213  cd devops-class/
+ 1214  ll
+ 1215  mkdir aug17
+ 1216  cd aug17/
+ 1217  echo history > history.txt
+ 1218  ll
+ 1219  cat history.txt 
+ 1220  history | history.txt
+ 1221  history | grep history.txt
+ 1222  echo history >> history.txt
+ 1223  cat history.txt 
+ 1224  sudo rm -f history.txt 
+ 1225  history
+ 1226  history | grep history.txt
+ 1227  history >> history.txt
