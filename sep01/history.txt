@@ -121,3 +121,30 @@
  1561  git status
  1562  cat sep01/history.txt 
  1563  history
+ 1564  vim sep01/history.txt 
+ 1565  git status
+ 1566  git show
+ 1567  git log
+ 1568  git branch
+ 1569  git status
+ 1570  git branch
+ 1571  git status
+ 1572  git add .
+ 1573  git commit -m "update history.txt file with sep 01 commands"
+ 1574  git push
+ 1575  git push --set-upstream origin feature1
+ 1576  git branch
+ 1577  git checkout sep01
+ 1578  git branch
+ 1579  git 
+ 1580  git merge feature1
+ 1581  git branch
+ 1582  cat sep01/history.txt 
+ 1583  git branch
+ 1584  git status
+ 1585  git push
+ 1586  git status
+ 1587  git branch
+ 1588  git checkout -b feature2
+ 1589  git branch
+ 1590  history
