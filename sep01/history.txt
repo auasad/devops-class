@@ -1,0 +1,100 @@
+ 1441  vim asad.txt
+ 1442  ls -lah
+ 1443  git status
+ 1444  git add .
+ 1445  git status
+ 1446  git rm asad.txt 
+ 1447  git rm -f asad.txt 
+ 1448  ll
+ 1449  ls -l
+ 1450  git status
+ 1451  git
+ 1452  ls -l
+ 1453  vim asad.txt
+ 1454  ls -lah
+ 1455  git status
+ 1456  ll
+ 1457  rm -f 1
+ 1458  ls -laj
+ 1459  ls -l
+ 1460  git status
+ 1461  git reset
+ 1462  ls -lah
+ 1463  git status
+ 1464  git add .
+ 1465  git status
+ 1466  git reset
+ 1467  git status
+ 1468  git reset
+ 1469  git statsu
+ 1470  git status
+ 1471  git add .
+ 1472  git status
+ 1473  git
+ 1474  ll
+ 1475  git satus
+ 1476  git status
+ 1477  touch 1.txt
+ 1478  ls -l
+ 1479  git status
+ 1480  git
+ 1481  git status
+ 1482  git add .
+ 1483  git status
+ 1484  git
+ 1485  git grep --help
+ 1486  git log
+ 1487  git show
+ 1488  git branch
+ 1489  cd ..
+ 1490  cd devops-class
+ 1491  ll
+ 1492  git status
+ 1493  cd aug31/
+ 1494  git status
+ 1495  git
+ 1496  git show
+ 1497  git
+ 1498  git log
+ 1499  git log | grep 0785dce6a08ae9efb34ad7bb1d608344889fd4f8
+ 1500  git log | grep fd4f8
+ 1501  git log | grep commands
+ 1502  git log
+ 1503  git log | grep "initial setup"
+ 1504  git
+ 1505  git branch
+ 1506  git checkout -b aug31
+ 1507  git branch
+ 1508  git
+ 1509  git branch test
+ 1510  git branch
+ 1511  git checkout test
+ 1512  git branch
+ 1513  git checkout aug31
+ 1514  git branch
+ 1515  git branch -d test
+ 1516  git branch
+ 1517  git branch delete
+ 1518  git branch
+ 1519  git branch -d delete
+ 1520  git branch
+ 1521  git
+ 1522  git diff
+ 1523  ll
+ 1524  ls -l
+ 1525  git pull
+ 1526  git branch
+ 1527  git checkout aug17
+ 1528  git branch
+ 1529  git pull
+ 1530  git
+ 1531  git fetch
+ 1532  exit
+ 1533  git
+ 1534  cd devops-class
+ 1535  ll
+ 1536  mkdir sep01
+ 1537  cd sep01/
+ 1538  cat history >> history.txt
+ 1539  cat history > history.txt
+ 1540  history >> history.txt
