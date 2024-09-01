@@ -98,3 +98,26 @@
  1538  cat history >> history.txt
  1539  cat history > history.txt
  1540  history >> history.txt
+ 1541  ll
+ 1542  git pull
+ 1543  git branch
+ 1544  git status
+ 1545  ls -lah
+ 1546  git branch
+ 1547  cd ..
+ 1548  git status
+ 1549  git checkout -b sep01
+ 1550  git branch
+ 1551  vim sep01/history.txt 
+ 1552  git status
+ 1553  git branch
+ 1554  git add .
+ 1555  git status
+ 1556  git commit -m "sep01 branch"
+ 1557  git push
+ 1558  git status
+ 1559  git pull
+ 1560  git checkout -b feature1
+ 1561  git status
+ 1562  cat sep01/history.txt 
+ 1563  history
